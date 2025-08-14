@@ -13,12 +13,12 @@ const HistoryMobile = () => {
     <>
       <div className="grid grid-cols-[50px_minmax(400px,1fr)] items-center md:hidden">
         <Sheet>
-          <SheetTrigger className=" p-3 hover:bg-gray-200 cursor-pointer transition-all duration-300 ease-in-out">
+          <SheetTrigger className=" p-3 hover:text-gray-600 cursor-pointer transition-all duration-300 ease-in-out">
             <AlignJustify />
           </SheetTrigger>
           <SheetContent side="left">
             <SheetHeader className="p-0">
-              <div className="flex flex-row items-center gap-4 w-[50%] mx-auto   mb-4">
+              <div className="flex flex-row items-center gap-4 w-[50%] mx-auto mb-4 mt-2">
                 <Image
                   src="/images/privatekernel.svg"
                   width={20}
