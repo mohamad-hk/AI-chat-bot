@@ -1,4 +1,4 @@
-export default function ChatBubble({ text, sender = "user" }) {
+export default function ChatBubble({ text, sender }) {
   const isUser = sender === "user";
 
   return (
