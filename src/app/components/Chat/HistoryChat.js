@@ -20,7 +20,7 @@ import {
   SidebarMenuItem,
   SidebarProvider,
   SidebarTrigger,
-} from "@/components/ui/sidebar";
+} from "../ui/sidebar";
 import Link from "next/link";
 import {
   DropdownMenu,

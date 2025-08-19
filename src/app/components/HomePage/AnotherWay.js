@@ -1,6 +1,6 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { AuthContext } from "@/context/checkAuthenticate";
+import { Button } from "../ui/button";
+import { AuthContext } from "../../context/checkAuthenticate";
 import { useContext } from "react";
 
 const AnotherWay = () => {

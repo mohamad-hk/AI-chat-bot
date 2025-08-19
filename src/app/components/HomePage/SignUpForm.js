@@ -1,4 +1,4 @@
-import { Input } from "@/components/ui/input";
+import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 const SignUpForm = () => {
   return (

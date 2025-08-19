@@ -1,5 +1,5 @@
-import ChatBox from "@/components/Chat/chatbox";
-import HistoryChat from "@/components/Chat/HistoryChat";
+import ChatBox from "../components/Chat/chatbox";
+import HistoryChat from "../components/Chat/HistoryChat";
 
 const Chat = () => {
   return (
