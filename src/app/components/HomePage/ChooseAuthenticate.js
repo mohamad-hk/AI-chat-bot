@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "../ui/button";
 import { AuthContext } from "../../context/checkAuthenticate";
 import { useContext } from "react";
 
@@ -14,9 +13,9 @@ const AnotherWay = () => {
   };
 
   return (
-    <Button className=" mt-4 cursor-pointer bg-none" onClick={Change_level}>
-      or {isAuthenticated ? "login" : "sign up"}
-    </Button>
+    <button className=" text-blue-500 text-[10px] cursor-pointer w-full text-left" onClick={Change_level}>
+       {isAuthenticated ? "Do you have an acoount? Login" : "Don't you have an acccount? sign up"}
+    </button>
   );
 };
 export default AnotherWay;
